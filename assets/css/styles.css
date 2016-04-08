@@ -35,7 +35,7 @@ nav {
     text-decoration: none;
     font-weight: bold;
     color: #A9EEE6;
-    font-size: 1.5rem; }
+    font-size: 1.5em; }
 
 /* Main Image & Title */
 .hero {
@@ -48,15 +48,14 @@ nav {
     text-align: center;
     color: #fff;
     padding-top: 125px;
-    margin: 0;
-    font-size: 5rem;
+    font-size: 5em;
     word-wrap: break-word; }
   .hero h2 {
     width: 50%;
     text-align: center;
     color: #fff;
     font-family: Neuton, "Times New Roman", Times, serif;
-    font-size: 2rem;
+    font-size: 2em;
     word-wrap: break-word; }
   .hero p {
     margin-top: 25px;
@@ -85,7 +84,7 @@ nav {
   margin: 0;
   padding: 0; }
   .products h2 {
-    font-size: 3rem;
+    font-size: 3em;
     margin: 5px; }
   .products .item {
     margin-bottom: 20px;
@@ -93,11 +92,8 @@ nav {
     padding-top: 10px;
     display: block; }
   .products .head {
-    margin: 0;
-    padding: 0;
     font-size: 2em; }
   .products p {
-    margin: 0;
     font-size: 1.5em; }
   .products img {
     float: left;
@@ -116,8 +112,6 @@ nav {
 
 /* Copyright & Social Footer */
 footer {
-  margin: 0;
-  padding: 0;
   background-color: #F9A1BC;
   border-top: 5px solid #f9b6cb;
   min-height: 75px; }
