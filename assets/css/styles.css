@@ -53,10 +53,8 @@ nav a {
 .hero {
 	height: 600px;
 	width: 100%;
-	background-image: url("../images/hero.jpeg");
+	background: url("../images/hero.jpeg") no-repeat center top;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center top;
 }
 
 .hero h1 {
