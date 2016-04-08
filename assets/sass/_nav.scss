@@ -1,7 +1,9 @@
+/* Navigation */
 nav {
 	background-color: $color-main;
 	border-bottom: 5px solid #f9b6cb;
 	text-align: right;
+	font-family: $font-headers;
 
 	ul {
 		@include list-reset();
@@ -14,7 +16,7 @@ nav {
 
 	a {
 	    display: inline-block;
-	    padding: 6px 12px;
+	    padding: 6px 20px;
 	    text-decoration: none;
 	    font-weight: bold;
 		color: $color-accent;

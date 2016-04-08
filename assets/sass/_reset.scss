@@ -1,6 +1,16 @@
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, a,
+img, ul, li, aside, footer, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
 body {
 	background-color: $color-backgrounds;
-	margin: 0;
+	font-family: $font-body;
 }
 
 h1,h2,h3,h4,h5,h6 {

@@ -1,15 +1,15 @@
+/* Main Image & Title */
 .hero {
 	height: 600px;
 	width: 100%;
-	background-size: 100% auto;
-	background-image: url("../images/hero.jpeg");
-	background-repeat: no-repeat;
+	background: url("../images/hero.jpeg") no-repeat center top;
+	background-size: cover;
 
 	h1 {
 		width: 50%;
 		text-align: center;
-		color: $color-backgrounds;
-		padding-top: 150px;
+		color: #fff;
+		padding-top: 125px;
 		margin: 0;
 		font-size: 5rem;
 		word-wrap: break-word;
@@ -18,19 +18,38 @@
 	h2 {
 		width: 50%;
 		text-align: center;
-		color: $color-backgrounds;
+		color: #fff;
 		font-family: $font-body;
 		font-size: 2rem;
 		word-wrap: break-word;
 	}
 
 	p {
-		width: 40%;
-		color: $color-backgrounds;
+		margin-top: 25px;
+		width: 50%;
+		color: #fff;
 		word-wrap: break-word;
-		font-family: $font-body;
-		padding-left: 60px;
 		text-align: center;
+	}
+}
+
+/* Product List */
+.flexbox {
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	overflow: hidden;
+
+	.col-1 {
+		width: 75%;
+	  	flex: 1 1 auto;
+	}
+
+	.col-2 {
+		width: 25%;
+	  	flex: 1 1 auto;
+	  	background-color: #A9EEE6;
+	  	font-size: 1.5em;
 	}
 }
 
@@ -52,42 +71,32 @@
 	.head {
 		margin: 0;
 		padding: 0;
-		font-size: 2rem;
+		font-size: 2em;
 	}
 
 	 p {
 		margin: 0;
-		font-size: 1.5rem;
-		font-family: $font-body;
+		font-size: 1.5em;
 	}
 
 	img {
 		float: left;
-		margin-right: 10px;
+		margin: 0 20px;
 		height: 120px;
 		width: 120px;
+		border-radius: 50%;
 	}
 
 	a {
 		text-decoration: none;
 		color: #000000;
 	}
-
-	ul {
-		width: 75%;
-		float: left;
-	}
 }
 
+/* Customer Favorites */
 .sidebar {
-	width: 25%;
-	background-color: $color-accent;
-	float: right;
-	font-family: $font-body;
-	font-size: 1.5rem;
-
 	h2 {
-		font-size: 2rem;
+		font-size: 2em;
 		text-align: center;
 	}
 }

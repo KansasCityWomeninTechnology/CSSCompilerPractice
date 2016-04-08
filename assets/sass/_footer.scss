@@ -1,14 +1,15 @@
+/* Copyright & Social Footer */
 footer {
 	margin: 0;
 	padding: 0;
 	background-color: $color-main;
 	border-top: 5px solid #f9b6cb;
-	clear: both;
+	min-height: 75px;
 
 	p {
+		margin-bottom: 15px;
 		text-align: center;
-		color: $color-backgrounds;
-		font-family: $font-body;
+		color: #fff;
 	}
 
 	ul {
