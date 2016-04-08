@@ -1,8 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Neuton);
 
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, a,
+img, ul, li, aside, footer, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
 body {
 	background-color: #FEFAEC;
-	margin: 0;
+	font-family: Neuton, "Times New Roman", Times, serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -11,10 +21,12 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+/* Navigation */
 nav {
 	background-color: #F9A1BC;
 	border-bottom: 5px solid #f9b6cb;
 	text-align: right;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -30,47 +42,69 @@ nav li {
 
 nav a {
     display: inline-block;
-    padding: 6px 12px;
+    padding: 6px 20px;
     text-decoration: none;
     font-weight: bold;
 	color: #A9EEE6;	
-	font-size: 1.5rem;
+	font-size: 1.5em;
 }
 
+/* Main Image & Title */
 .hero {
 	height: 600px;
 	width: 100%;
-	background-size: 100% auto;
 	background-image: url("../images/hero.jpeg");
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .hero h1 {
 	width: 50%;
 	text-align: center;
-	color: #ffffff;
-	padding-top: 150px;
+	color: #fff;
+	padding-top: 125px;
 	margin: 0;
-	font-size: 5rem;
+	font-size: 5em;
 	word-wrap: break-word;
 }
 
 .hero h2 {
 	width: 50%;
 	text-align: center;
-	color: #ffffff;
+	color: #fff;
 	font-family: Neuton, "Times New Roman", Times, serif;
-	font-size: 2rem;
+	font-size: 2em;
 	word-wrap: break-word;
 }
 
 .hero p {
-	width: 40%;
-	color: #ffffff;
+	margin-top: 25px;
+	width: 50%;
+	color: #fff;
 	word-wrap: break-word;
-	font-family: Neuton, "Times New Roman", Times, serif;
-	padding-left: 60px;
 	text-align: center;
+}
+
+
+/* Product List */
+.flexbox {
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	overflow: hidden;
+}
+
+.flexbox .col-1 {
+	width: 75%;
+  	flex: 1 1 auto;
+}
+
+.flexbox .col-2 {
+	width: 25%;
+  	flex: 1 1 auto;
+  	background-color: #A9EEE6;
+  	font-size: 1.5em;
 }
 
 .products {
@@ -80,7 +114,7 @@ nav a {
 }
 
 .products h2 {
-	font-size: 3rem;
+	font-size: 3em;
 	margin: 5px;
 }
 
@@ -94,21 +128,21 @@ nav a {
 .products .head {
 	margin: 0;
 	padding: 0;
-	font-size: 2rem;
+	font-size: 2em;
 
 }
 
 .products p {
 	margin: 0;
-	font-size: 1.5rem;
-	font-family: Neuton, "Times New Roman", Times, serif;
+	font-size: 1.5em;
 }
 
 .products img {
 	float: left;
-	margin-right: 10px;
+	margin: 0 20px;
 	height: 120px;
 	width: 120px;
+	border-radius: 50%;
 }
 
 .products a {
@@ -116,36 +150,25 @@ nav a {
 	color: #000000;
 }
 
-.products ul {
-	width: 75%;
-	float: left;
-}
-
-.sidebar {
-	width: 25%;
-	background-color: #A9EEE6;
-	float: right;
-	font-family: Neuton, "Times New Roman", Times, serif;
-	font-size: 1.5rem;
-}
-
+/* Customer Favorites */
 .sidebar h2 {
-	font-size: 2rem;
+	font-size: 2em;
 	text-align: center;
 }
 
+/* Copyright & Social Footer */
 footer {
 	margin: 0;
 	padding: 0;
 	background-color: #F9A1BC;
 	border-top: 5px solid #f9b6cb;
-	clear: both;
+	min-height: 75px;
 }
 
 footer p {
+	margin-bottom: 15px;
 	text-align: center;
 	color: #ffffff;
-	font-family: Neuton, "Times New Roman", Times, serif;
 }
 
 footer ul {
