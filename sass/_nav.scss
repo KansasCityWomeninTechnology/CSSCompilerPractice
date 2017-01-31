@@ -1,16 +1,16 @@
 /* Navigation */
 nav {
-	background-color: $color-main;
-	border-bottom: 5px solid #f9b6cb;
+	background-color: $orange;
+	border-bottom: 5px solid lighten($orange, 20%);
 	text-align: right;
-	font-family: $font-headers;
+	font-family: $header-font;
 
 	ul {
 		@include list-reset();
 	}
 
 	li {
-		display: inline; 
+		display: inline;
 		padding: 2px;
 	}
 
@@ -19,7 +19,7 @@ nav {
 	    padding: 6px 20px;
 	    text-decoration: none;
 	    font-weight: bold;
-		color: $color-accent;
+		color: $white;
 		font-size: 1.5em;
 	}
 

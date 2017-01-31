@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Neuton);
 /* Reset */
 html, body, div, h1, h2, h3, h4, h5, h6, p, a,
-img, ul, li, aside, footer, nav, section {
+img, li, aside, footer, nav, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,13 +13,13 @@ body {
   font-family: Neuton, "Times New Roman", Times, serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #625772;
+  color: #637056;
   font-family: Montserrat, Arial, Helvetica, sans-serif; }
 
 /* Navigation */
 nav {
-  background-color: #F9A1BC;
-  border-bottom: 5px solid #f9b6cb;
+  background-color: #cb6f10;
+  border-bottom: 5px solid #f1a250;
   text-align: right;
   font-family: Montserrat, Arial, Helvetica, sans-serif; }
   nav ul {
@@ -34,35 +34,36 @@ nav {
     padding: 6px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #A9EEE6;
+    color: #ffffff;
     font-size: 1.5em; }
 
 /* Main Image & Title */
 .hero {
   height: 600px;
   width: 100%;
-  background: url("../images/hero.jpeg") no-repeat center top;
+  background: url("../images/hero.jpg") no-repeat center top;
   background-size: cover; }
-  .hero h1 {
+  .hero .hero-text {
     width: 50%;
+    padding-top: 125px; }
+  .hero h1 {
     text-align: center;
-    color: #fff;
-    padding-top: 125px;
+    color: #cb6f10;
     font-size: 5em;
     word-wrap: break-word; }
   .hero h2 {
     width: 50%;
     text-align: center;
-    color: #fff;
-    font-family: Neuton, "Times New Roman", Times, serif;
-    font-size: 2em;
-    word-wrap: break-word; }
-  .hero p {
-    margin-top: 25px;
-    width: 50%;
-    color: #fff;
+    color: #cb6f10;
+    font-size: 1.5em;
     word-wrap: break-word;
-    text-align: center; }
+    margin-bottom: 20px; }
+  .hero p {
+    width: 50%;
+    color: #cb6f10;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 1.25em; }
 
 /* Product List */
 .flexbox {
@@ -76,44 +77,47 @@ nav {
   .flexbox .col-2 {
     width: 25%;
     flex: 1 1 auto;
-    background-color: #A9EEE6;
+    background-color: #d9e9ce;
     font-size: 1.5em; }
 
-.products {
+.drinks {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-  .products h2 {
+  .drinks h2 {
     font-size: 3em;
     margin: 5px; }
-  .products .item {
-    margin-bottom: 20px;
-    border-top: 1px dotted #A9EEE6;
+  .drinks .item {
+    margin-bottom: 60px;
+    border-top: 1px dotted #637056;
     padding-top: 10px;
     display: block; }
-  .products .head {
+  .drinks .head {
     font-size: 2em; }
-  .products p {
-    font-size: 1.5em; }
-  .products img {
+  .drinks p {
+    font-size: 1.3em; }
+  .drinks img {
     float: left;
     margin: 0 20px;
     height: 120px;
     width: 120px;
     border-radius: 50%; }
-  .products a {
+  .drinks a {
     text-decoration: none;
     color: #000000; }
 
 /* Customer Favorites */
 .sidebar h2 {
   font-size: 2em;
-  text-align: center; }
+  text-align: center;
+  margin: 5px 0; }
+.sidebar ul {
+  list-style-type: none; }
 
 /* Copyright & Social Footer */
 footer {
-  background-color: #F9A1BC;
-  border-top: 5px solid #f9b6cb;
+  background-color: #cb6f10;
+  border-top: 5px solid #f1a250;
   min-height: 75px; }
   footer p {
     margin-bottom: 15px;
@@ -127,9 +131,8 @@ footer {
     text-align: center; }
   footer li {
     display: inline-block; }
-  footer img {
-    width: 24px;
-    height: 24px;
-    padding: 2px 10px; }
+  footer i {
+    padding: 2px 10px;
+    color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */

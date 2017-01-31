@@ -1,7 +1,7 @@
 /* Copyright & Social Footer */
 footer {
-	background-color: $color-main;
-	border-top: 5px solid #f9b6cb;
+	background-color: $orange;
+	border-top: 5px solid lighten($orange, 20%);
 	min-height: 75px;
 
 	p {
@@ -20,9 +20,8 @@ footer {
 		display: inline-block;
 	}
 
-	img {
-		width: 24px;
-		height: 24px;
+	i {
 		padding: 2px 10px;
+		color: $white
 	}
 }

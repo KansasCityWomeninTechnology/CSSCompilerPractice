@@ -1,6 +1,6 @@
 /* Reset */
 html, body, div, h1, h2, h3, h4, h5, h6, p, a,
-img, ul, li, aside, footer, nav, section {
+img, li, aside, footer, nav, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -9,12 +9,12 @@ img, ul, li, aside, footer, nav, section {
 }
 
 body {
-	background-color: $color-backgrounds;
-	font-family: $font-body;
+	background-color: $cream;
+	font-family: $body-font;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: $color-headlines;
-	font-family: $font-headers;
+	color: $dark-green;
+	font-family: $header-font;
 
 }

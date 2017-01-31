@@ -2,14 +2,17 @@
 .hero {
 	height: 600px;
 	width: 100%;
-	background: url("../images/hero.jpeg") no-repeat center top;
+	background: url("../images/hero.jpg") no-repeat center top;
 	background-size: cover;
 
-	h1 {
+	.hero-text {
 		width: 50%;
-		text-align: center;
-		color: #fff;
 		padding-top: 125px;
+	}
+
+	h1 {
+		text-align: center;
+		color: $orange;
 		font-size: 5em;
 		word-wrap: break-word;
 	}
@@ -17,25 +20,23 @@
 	h2 {
 		width: 50%;
 		text-align: center;
-		color: #fff;
-		font-family: $font-body;
-		font-size: 2em;
+		color: $orange;
+		font-size: 1.5em;
 		word-wrap: break-word;
+		margin-bottom: 20px;
 	}
 
 	p {
-		margin-top: 25px;
 		width: 50%;
-		color: #fff;
+		color: $orange;
 		word-wrap: break-word;
 		text-align: center;
+		font-size: 1.25em;
 	}
 }
 
 /* Product List */
 .flexbox {
-  	display: -webkit-flex;
-  	display: -ms-flexbox;
   	display: flex;
   	overflow: hidden;
 
@@ -47,12 +48,12 @@
 	.col-2 {
 		width: 25%;
 	  	flex: 1 1 auto;
-	  	background-color: #A9EEE6;
+	  	background-color: $light-green;
 	  	font-size: 1.5em;
 	}
 }
 
-.products {
+.drinks {
 	@include list-reset();
 
 	h2 {
@@ -61,8 +62,8 @@
 	}
 
 	.item {
-		margin-bottom: 20px;
-		border-top: 1px dotted $color-accent;
+		margin-bottom: 60px;
+		border-top: 1px dotted $dark-green;
 		padding-top: 10px;
 		display: block;
 	}
@@ -71,8 +72,8 @@
 		font-size: 2em;
 	}
 
-	 p {
-		font-size: 1.5em;
+	p {
+		font-size: 1.3em;
 	}
 
 	img {
@@ -85,7 +86,7 @@
 
 	a {
 		text-decoration: none;
-		color: #000000;
+		color: $black;
 	}
 }
 
@@ -94,5 +95,10 @@
 	h2 {
 		font-size: 2em;
 		text-align: center;
+		margin: 5px 0;
+	}
+
+	ul {
+		list-style-type: none;
 	}
 }
