@@ -60,8 +60,7 @@ nav {
 
 /* Product List */
 .flexbox {
-  display: flex;
-  overflow: hidden; }
+  display: flex; }
   .flexbox .col-1 {
     width: 75%;
     flex: 1 1 auto; }
