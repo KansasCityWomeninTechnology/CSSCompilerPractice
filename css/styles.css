@@ -45,24 +45,17 @@ nav {
   background-size: cover; }
   .hero .hero-text {
     width: 50%;
-    padding-top: 125px; }
+    padding-top: 125px;
+    text-align: center; }
   .hero h1 {
-    text-align: center;
     color: #cb6f10;
-    font-size: 5em;
-    word-wrap: break-word; }
+    font-size: 5em; }
   .hero h2 {
-    width: 50%;
-    text-align: center;
     color: #cb6f10;
     font-size: 1.5em;
-    word-wrap: break-word;
     margin-bottom: 20px; }
   .hero p {
-    width: 50%;
     color: #cb6f10;
-    word-wrap: break-word;
-    text-align: center;
     font-size: 1.25em; }
 
 /* Product List */

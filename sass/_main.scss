@@ -8,29 +8,22 @@
 	.hero-text {
 		width: 50%;
 		padding-top: 125px;
+		text-align: center;
 	}
 
 	h1 {
-		text-align: center;
 		color: $orange;
 		font-size: 5em;
-		word-wrap: break-word;
 	}
 
 	h2 {
-		width: 50%;
-		text-align: center;
 		color: $orange;
 		font-size: 1.5em;
-		word-wrap: break-word;
 		margin-bottom: 20px;
 	}
 
 	p {
-		width: 50%;
 		color: $orange;
-		word-wrap: break-word;
-		text-align: center;
 		font-size: 1.25em;
 	}
 }
