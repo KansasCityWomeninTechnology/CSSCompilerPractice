@@ -1,0 +1,33 @@
+body {
+    background-color: #fefaec;
+  }
+  
+  nav {
+    background-color: #cb6f10;
+  }
+  
+  .hero h1 {
+    color: #cb6f10;
+  }
+  
+  .hero h2 {
+    color: #cb6f10;
+  }
+  
+  .hero p {
+    color: #cb6f10;
+  }
+  
+  .drinks img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .sidebar {
+    background-color: #d9e9ce;
+  }
+  
+  footer {
+    background-color: #cb6f10;
+  }
+  
