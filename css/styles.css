@@ -8,10 +8,23 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
   background-color: #cb6f10;
+  bottom-border: 5px solid #f1a250;
 }
 
 nav ul {
+  display: inline-block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 2px;
+  display: inline;
+}
+
+nav a {
+  padding: 6px 20px;
 }
 
 nav a:hover {
@@ -24,15 +37,45 @@ nav a:hover {
 
 .hero h2 {
   color: #cb6f10;
+  margin-bottom: 20px;
 }
 
 .hero p {
   color: #cb6f10;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.drinks {
+  margin: 0;
+  padding: 0;
+}
+
+.drinks ul {
+  list-style-type: none;
+}
+
+.drinks .item {
+  border-top: 1px dotted #637056;
+  display: block;
+  margin-bottom: 60px;
+}
+
 .drinks img {
   width: 120px;
   height: 120px;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+.hero {
+  background: url("https://raw.githubusercontent.com/KansasCityWomeninTechnology/CSSCompilerPractice/master/images/hero.jpg") no-repeat center top;
+  background-size: cover;
+  height: 600px;
 }
 
 .sidebar {
@@ -53,10 +96,19 @@ nav a:hover {
 
 footer {
   background-color: #cb6f10;
+  border-top: 5px solid #f1a250;
+  height: 75px;
 }
 
 footer ul {
+  display: block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
 }
 
 footer a:hover {
