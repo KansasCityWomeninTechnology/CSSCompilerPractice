@@ -83,12 +83,24 @@ nav a:hover {
 .grid-container {
   display: grid;
   grid-template-columns: 75% auto;
+  grid-template-areas: "drinks sidebar";
+}
+
+@media screen and (max-width: 700px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "drinks"
+      "sidebar";
+  }
 }
 
 .drinks {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  grid-area: drinks;
 }
 
 .drinks h2 {
@@ -122,6 +134,7 @@ nav a:hover {
 .sidebar {
   background-color: #d9e9ce;
   font-size: 1.5em;
+  grid-area: sidebar;
 }
 
 .sidebar h2 {
