@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
   background-color: #cb6f10;
-  bottom-border: 5px solid #f1a250;
+  border-bottom: 5px solid #f1a250;
 }
 
 nav ul {
