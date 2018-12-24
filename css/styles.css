@@ -54,7 +54,7 @@ nav a:hover {
 
 .hero {
   height: 600px;
-  background: url("https://raw.githubusercontent.com/KansasCityWomeninTechnology/CSSCompilerPractice/master/images/hero.jpg") no-repeat center top;
+  background: url("../images/hero.jpg") no-repeat center top;
   background-size: cover;
 }
 
