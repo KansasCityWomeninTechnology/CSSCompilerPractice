@@ -1,22 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Neuton);
+
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, a,
+img, li, aside, footer, nav, section {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+}
+
 body {
    background-color: #fefaec;
+   font-family: Neuton, "Times New Roman", Times, serif;
 }
 
 nav, footer {
    background-color: #cb6f10;
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 nav {
    border-bottom: 5px solid #f1a250;
+   text-align: right;
+   font-weight: bold;
+   font-size: 1.5em;
 }
 
 footer {
    border-top: 5px solid #f1a250;
    height: 75px;
+   color: white;
+   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
    color: #637056;
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   font-size: 5em;
+}
+
+p {
+   font-size: 1.25em;
 }
 
 img {
@@ -40,10 +68,16 @@ nav li, footer li {
 
 nav a, footer a {
    padding: 6px 20px;
+   color: white;
+   text-decoration: none;
 }
 
 nav a:hover, footer a:hover {
    background-color: #d88731;
+}
+
+footer p {
+   margin-bottom: 15px;
 }
 
 .hero {
@@ -55,6 +89,15 @@ nav a:hover, footer a:hover {
 .hero-text {
    padding-top: 125px;
    width: 50%;
+   text-align: center;
+}
+
+.hero-text > * {
+   color: #cb6f10;
+}
+
+.hero-text h2 {
+   font-size: 1.5em;
 }
 
 .grid-container {
@@ -64,6 +107,11 @@ nav a:hover, footer a:hover {
 
 .drinks h2 {
    margin: 5px;
+   font-size: 3em;
+}
+
+h3.beverage {
+   font-size: 2em;
 }
 
 .item {
@@ -73,11 +121,14 @@ nav a:hover, footer a:hover {
 }
 
 .small-plates {
-   background-color: #d9e9ce
+   background-color: #d9e9ce;
+   font-size: 1.5em;
 }
 
 .small-plates h2 {
    margin: 5px 0;
+   font-size: 2em;
+   text-align: center;
 }
 
 .small-plates li {
