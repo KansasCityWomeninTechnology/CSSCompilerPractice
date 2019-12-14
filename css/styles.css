@@ -103,6 +103,20 @@ footer p {
 .grid-container {
    display: grid;
    grid-template-columns: 75% auto;
+   grid-template-areas: 
+   "drinks small-plates";
+}
+
+@media screen and (max-width: 600px) {
+   .grid-container {
+      grid-template-areas: 
+      "drinks" 
+      "small-plates";
+   }
+}
+
+.drinks {
+   grid-area: drinks;
 }
 
 .drinks h2 {
@@ -123,6 +137,7 @@ h3.beverage {
 .small-plates {
    background-color: #d9e9ce;
    font-size: 1.5em;
+   grid-area: small-plates;
 }
 
 .small-plates h2 {
