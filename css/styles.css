@@ -40,6 +40,7 @@ nav li, footer li {
 
 nav a, footer a {
    padding: 6px 20px;
+   display: inline-block;
 }
 
 nav a:hover, footer a:hover {
@@ -87,3 +88,8 @@ nav a:hover, footer a:hover {
 .small-plates li:first-child {
    margin-top: 0;
 }
+
+
+
+
+
