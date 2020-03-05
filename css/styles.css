@@ -68,6 +68,7 @@ nav li, footer li {
 
 nav a, footer a {
    padding: 6px 20px;
+   display: inline-block;
    color: white;
    text-decoration: none;
 }
