@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Cairo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Josefin+Sans&display=swap');
 
 /* Reset */
 html, body, div, h1, h2, h3, h4, h5, h6, p, a,
@@ -11,8 +11,8 @@ img, li, aside, footer, nav, section {
 }
 
 body {
-  background-color: #fefaec;
-  font-family: "Bangers", cursive;
+  background-color: #F9F7F7;
+  font-family: 'Catamaran', sans-serif;
 }
 
 h1,
@@ -23,7 +23,7 @@ h3 {
 
 nav,
 footer {
-  background-color: #484e78;
+  background-color: #364F6B;
   font-family: "Cairo", sans-serif;
 }
 
@@ -49,13 +49,14 @@ footer {
   text-align: center;
 }
 
+
 ul {
   list-style-type: none;
 }
 
 p {
   font-size: 1.25em;
-}
+} 
 
 main li:hover {
   border: 2px solid white;
@@ -74,7 +75,7 @@ main li:hover {
 }
 
 .drinks {
-  background-color: #9d81a2;
+  background-color: #DBE2EF;
   padding-bottom: 60px;
 }
 
@@ -82,7 +83,7 @@ main li:hover {
   padding-top: 30px;
   margin-left: 15px;
   font-size: 3em;
-  color: white;
+  color: #112D4E;
 }
 
 .drinks li {
@@ -92,12 +93,13 @@ main li:hover {
   border-top: 1px dotted white;
 }
 
+
 .drinks li:first-child {
   margin-top: 0;
 }
 
 h3.beverage {
-  color: white;
+  color: #112D4E;
   font-size: 1.5em;
 }
 
