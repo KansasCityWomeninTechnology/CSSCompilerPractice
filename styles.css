@@ -1,0 +1,23 @@
+body {
+    background-color: #f2dcf2;
+  }
+  
+  nav,
+  footer {
+    background-color: #8dbfa1;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #1d1395;
+  }
+  
+  main li :hover {
+    background-color: #deb6de;
+  }
+  
+  .drinks {
+    background-color: #cc8ecc;
+  }
+  
